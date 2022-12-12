@@ -18,14 +18,14 @@ Arguably, one the most important decisions NBA managers and coaches need to make
 
 To answer the research question and the points of exploration listed above, the research question was broken down into a smaller subset of questions. In this project we measure the succcess and value a player brings to an organization by looking at their offensive output, defensive output, and their overall impact they have on their respective teams' winning record. Moreover, the questions explored were:
 - **Do top draft picks bring offensive value?** To measure this, we looked at historical regular season player data highlighting the following:
-    - **Points scored per game (PPG)**
-    - **Assists made per game (APG)**
+    - Points scored per game (PPG)
+    - Assists made per game (APG)
 - **Do top draft picks bring defensive value?** To measure this, we looked at historical regular season player data highlighting the following:
-    - **Steals made per game (STPG)**
-    - **Blocks made per game (BLKPG)**
+    - Steals made per game (STPG)
+    - Blocks made per game (BLKPG)
 - **Are top draft picks significant contributors to their respective teams' winning record?** To measure this, we looked at historical regular season player data highlighting the following:
-    - **Box plus minus per season (BPM)**
-    - **Win shares per season (WS)**
+    - Box plus minus per season (BPM)
+    - Win shares per season (WS)
 
 ## Repository Structure and Organization
 This repository contains the following folders and files:
@@ -36,13 +36,14 @@ This repository contains the following folders and files:
 > - Visualization output that plots **points per game** as a function of draft position titled ```PPG.png```;
 > - Visualization output that plots **steals per game** as a function of draft position titled ```STPG.png```;
 > - Visualization output that plots **win-shares** as a function of draft position titled ```WS.png```;
-> - CSV file containing the data used in the analysis titled ```draft-data-20-years.csv```;
-> - CSV file containing the data used in the analysis titled ```player_data.csv```; and
-> - CSV file containing the data used in the analysis titled ```player_stats.csv```;
+> - A CSV file containing the data used in the analysis titled ```draft-data-20-years.csv```;
+> - A CSV file containing the data used in the analysis titled ```player_data.csv```; and
+> - A CSV file containing the data used in the analysis titled ```player_stats.csv```;
 
 - A ```.gitignore``` file to ensure that the file that contains the API keys is kept from being shared with the public
 - The final ```Jupyter Notebook``` containing the Python script that extracted, cleaned, and organized all the data used in this project titled ```Data_Extraction.ipynb```
 - The final ```Jupyter Notebook``` containing the Python script that created the visualizations used in this project titled ```Visualizations_Final.ipynb```
+- The final PPT presentation slides titled ```Project 1 - Team 14.pptx```
 
 ## Methodology Overview
 ### Datasets Used
