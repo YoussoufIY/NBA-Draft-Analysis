@@ -53,4 +53,38 @@ In addition, we narrowed down over 20 player statistics for each group to the fo
 ![fig1](https://user-images.githubusercontent.com/113209883/206972642-2e7ef42d-9e13-4f04-9f6b-eb339aa53e63.jpg)
 
 ## Results and Analysis
+To address the first question related to the **offensive value** brought by top NBA draft picks, **average PPG** made by each group was plotted as a function of draft position using the ```pandas``` and ```Matplotlib``` Python libraries. In addition, using the ```NumPy``` and ```sci-py``` Python libraries, the r and p correlation values were computed, and a linear regression analysis was performed. The above steps produced the following plot:
 
+![PPG](https://user-images.githubusercontent.com/113209883/206975720-346ad4af-648a-49f0-ad4d-e2b89f0bfbab.png)
+
+Referring at the scatter plot for average career points per game as a function of draft position above, we see a negative correlation with points per game and draft position. Moreover, we see that in general, as we move down the picks of the draft, the lower their average PPG they produce. The correlation between draft position and PPG was computed to be: -0.87. The p-value was computed to be: 0.001. These values suggest that the strength of association of these variables is high and statistically significant.
+
+Addressing the same question as above, **average APG** made by each group was also plotted as a function of draft position using the ```pandas``` and ```Matplotlib``` Python libraries. In addition, using the ```NumPy``` and ```sci-py``` Python libraries, the r and p correlation values were computed, and a linear regression analysis was performed. The above steps produced the following plot:
+
+![APG](https://user-images.githubusercontent.com/113209883/206976884-8090de2a-5b7c-4998-825b-cd0509906e35.png)
+
+Referring to the scatter plot for average assists per game as a function of draft position above, we see a negative correlation with the assists made per game and draft position. Moreover, we see that in general, as we move down the picks of the draft, the lower their average APG these picks tend to produce. The correlation between draft position and APG was computed to be: -0.83. The p-value was computed to be: 0.003. These values suggest that the strength of association of these variables is high and statistically significant.
+
+To address the second question related to the **defensive value** brought by top NBA draft picks, **average STPG** made by each group was plotted as a function of draft position using the ```pandas``` and ```Matplotlib``` Python libraries. In addition, using the ```NumPy``` and ```sci-py``` Python libraries, the r and p correlation values were computed, and a linear regression analysis was performed. The above steps produced the following plot:
+
+![STPG](https://user-images.githubusercontent.com/113209883/206977329-3aa0e49a-81fe-4705-8ed8-0a532228fe8f.png)
+
+Referring to the scatter plot for average steals made per game as a function of draft position above, we see a negative correlation with the steals made per game and draft position. Moreover, we see that in general, as we move down the picks of the draft, a lower the number of steals are made amongst these picks. The correlation between draft position and STPG was computed to be: -0.54. The p-value was computed to be: 0.107. These values suggest that there is not a strong relationship between draft position and the ability to produce steals within a game.
+
+Addressing the same question as above, **average BLKPG** made by each group was also plotted as a function of draft position using the ```pandas``` and ```Matplotlib``` Python libraries. In addition, using the ```NumPy``` and ```sci-py``` Python libraries, the r and p correlation values were computed, and a linear regression analysis was performed. The above steps produced the following plot:
+
+![BLKPG](https://user-images.githubusercontent.com/113209883/206977763-b53ac2c5-3977-4888-87b4-6e6befc05318.png)
+
+Referring to the scatter plot for average blocks made per game as a function of draft position above, we see a negative correlation with the blocks made per game and draft position. Moreover, we see that in general, as we move down the picks of the draft, a lower the number of blocks are made amongst these picks. The correlation between draft position and BLKPG was computed to be: -0.77. The p-value was computed to be: 0.009. These values suggest that there is a strong correlation between draft position and the ability to produce blocks within a games. This makes sense in the context of the Modern NBA as Forwards tend to be more desired than Guards given their dominant physical attributes. 
+
+Lastly, to address the third question related to the **team impact** draft picks have **average WS** of each group was plotted as a function of draft position using the ```pandas``` and ```Matplotlib``` Python libraries. In addition, using the ```NumPy``` and ```sci-py``` Python libraries, the r and p correlation values were computed, and a linear regression analysis was performed. The above steps produced the following plot:
+
+![WS](https://user-images.githubusercontent.com/113209883/206978396-975fe0e6-1cfb-41d7-975c-80ed09af81d0.png)
+
+Referring to the scatter plot for average WS as a function of draft position above, we see a negative correlation with WS and draft position. Moreover, we see that in general, as we move down the picks of the draft, a lower the number the WS values are amongst these picks. The correlation between draft position and WS was computed to be: -0.73. The p-value was computed to be: 0.017. These values suggest that there is a strong correlation between draft position and a pick's WS.
+
+Addressing the same question as above, **average BPM** of each group was also plotted as a function of draft position using the ```pandas``` and ```Matplotlib``` Python libraries. In addition, using the ```NumPy``` and ```sci-py``` Python libraries, the r and p correlation values were computed, and a linear regression analysis was performed. The above steps produced the following plot:
+
+![BPM](https://user-images.githubusercontent.com/113209883/206978791-96ee3372-7918-436a-ab7c-e62f4e0d327a.png)
+
+Referring to the scatter plot for average BPM as a function of draft position above, we see a negative correlation with BPM and draft position. Moreover, we see that in general, as we move down the picks of the draft, a lower the number the BPM scores are amongst these picks. The correlation between draft position and WS was computed to be: -0.79. The p-value was computed to be: 0.006. These values suggest that the strength of association of these variables is high and statistically significant.
