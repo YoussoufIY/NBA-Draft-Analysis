@@ -79,7 +79,7 @@ To address the first question related to the **offensive value** brought by top 
 
 ![PPG](https://user-images.githubusercontent.com/113209883/206975720-346ad4af-648a-49f0-ad4d-e2b89f0bfbab.png)
 
-Referring at the scatter plot for average career points per game as a function of draft position above, we see a negative correlation with points per game and draft position. Moreover, we see that in general, as we move down the picks of the draft, the lower their average PPG they produce. The correlation between draft position and PPG was computed to be: -0.87. The p-value was computed to be: 0.001. These values suggest that the strength of association of these variables is high and statistically significant.
+Referring to the scatter plot for average career points per game as a function of draft position above, we see a negative correlation with points per game and draft position. Moreover, we see that in general, as we move down the picks of the draft, the lower their average PPG they produce. The correlation between draft position and PPG was computed to be: -0.87. The p-value was computed to be: 0.001. These values suggest that the strength of association of these variables is high and statistically significant.
 
 Addressing the same question as above, **average APG** made by each group was also plotted as a function of draft position using the ```pandas``` and ```Matplotlib``` Python libraries. In addition, using the ```NumPy``` and ```sci-py``` Python libraries, the r and p correlation values were computed, and a linear regression analysis was performed. The above steps produced the following plot:
 
@@ -112,3 +112,6 @@ Addressing the same question as above, **average BPM** of each group was also pl
 Referring to the scatter plot for average BPM as a function of draft position above, we see a negative correlation with BPM and draft position. Moreover, we see that in general, as we move down the picks of the draft, a lower the number the BPM scores are amongst these picks. The correlation between draft position and WS was computed to be: -0.79. The p-value was computed to be: 0.006. These values suggest that the strength of association of these variables is high and statistically significant.
 
 ## Conclusions
+Based on our analysis, we see that on average, players selected higher in the NBA draft tend to outperform others drafted below them in terms of offensive output, defensive output, and overall team impact. This suggests that NBA general managers and coaches that have had the opportunity to draft the first few picks in each NBA draft have been successful in doing so, especially in regards to players that offensively excel.
+
+While this in general is true, there were outliers as mentioned in the previous section. These outliers are most likely related to the limitations with the scope of our study.
