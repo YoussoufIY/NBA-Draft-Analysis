@@ -1,9 +1,13 @@
-# Project 1: Team-14
+<img width="1180" alt="Screen Shot 2022-12-12 at 2 00 50 AM" src="https://user-images.githubusercontent.com/113209883/206981244-33551d00-95ce-4a9c-a33d-69f9d7e2ee9c.png">
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Repository Structure and Organization](#repository-structure-and-organization)
 - [Methodology Overview](#methodology-overview)
 - [Data Cleaning and Organization](#data-cleaning-and-organization)
+- [Results and Analysis](#results-and-analysis)
+- [Conclusions](#conclusions)
 
 ## Project Overview
 Arguably, one the most important decisions NBA managers and coaches need to make each year, especially those who rank high in the NBA lottery, is related to which talent they select on draft night as this player could potentially turn-around a weak franchise's losing record. Due to the high stakes associated with this decision, in this project we explore the following:
@@ -22,6 +26,8 @@ To answer the research question and the points of exploration listed above, the 
 - **Are top draft picks significant contributors to their respective teams' winning record?** To measure this, we looked at historical regular season player data highlighting the following:
     - **Box plus minus per season (BPM)**
     - **Win shares per season (WS)**
+
+## Repository Structure and Organization
  
 ## Methodology Overview
 ### Datasets Used
@@ -88,3 +94,5 @@ Addressing the same question as above, **average BPM** of each group was also pl
 ![BPM](https://user-images.githubusercontent.com/113209883/206978791-96ee3372-7918-436a-ab7c-e62f4e0d327a.png)
 
 Referring to the scatter plot for average BPM as a function of draft position above, we see a negative correlation with BPM and draft position. Moreover, we see that in general, as we move down the picks of the draft, a lower the number the BPM scores are amongst these picks. The correlation between draft position and WS was computed to be: -0.79. The p-value was computed to be: 0.006. These values suggest that the strength of association of these variables is high and statistically significant.
+
+## Conclusions
