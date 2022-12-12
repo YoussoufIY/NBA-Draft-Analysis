@@ -40,10 +40,10 @@ This repository contains the following folders and files:
 > - A CSV file containing the data used in the analysis titled ```player_data.csv```; and
 > - A CSV file containing the data used in the analysis titled ```player_stats.csv```;
 
-- A ```.gitignore``` file to ensure that the file that contains the API keys is kept from being shared with the public
-- The final ```Jupyter Notebook``` containing the Python script that extracted, cleaned, and organized all the data used in this project titled ```Data_Extraction.ipynb```
-- The final ```Jupyter Notebook``` containing the Python script that created the visualizations used in this project titled ```Visualizations_Final.ipynb```
-- The final PPT presentation slides titled ```Project 1 - Team 14.pptx```
+- A ```.gitignore``` file to ensure that the file that contains the API keys is kept from being shared with the public;
+- The final ```Jupyter Notebook``` containing the Python script that extracted, cleaned, and organized all the data used in this project titled ```Data_Extraction.ipynb```;
+- The final ```Jupyter Notebook``` containing the Python script that created the visualizations used in this project titled ```Visualizations_Final.ipynb```; and
+- The final PPT presentation slides titled ```Project 1 - Team 14.pptx```.
 
 ## Methodology Overview
 ### Datasets Used
