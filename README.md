@@ -28,7 +28,22 @@ To answer the research question and the points of exploration listed above, the 
     - **Win shares per season (WS)**
 
 ## Repository Structure and Organization
- 
+This repository contains the following folders and files:
+> A **folder** titled ```Resources``` that contains:
+> - Visualization output that plots **assists per game** as a function of draft position titled ```APG.png```;
+> - Visualization output that plots **blocks per game** as a function of draft position titled ```BLKPG.png```;
+> - Visualization output that plots **box plus-minus** as a function of draft position titled ```BPM.png```;
+> - Visualization output that plots **points per game** as a function of draft position titled ```PPG.png```;
+> - Visualization output that plots **steals per game** as a function of draft position titled ```STPG.png```;
+> - Visualization output that plots **win-shares** as a function of draft position titled ```WS.png```;
+> - CSV file containing the data used in the analysis titled ```draft-data-20-years.csv```;
+> - CSV file containing the data used in the analysis titled ```player_data.csv```; and
+> - CSV file containing the data used in the analysis titled ```player_stats.csv```;
+
+- A ```.gitignore``` file to ensure that the file that contains the API keys is kept from being shared with the public
+- The final ```Jupyter Notebook``` containing the Python script that extracted, cleaned, and organized all the data used in this project titled ```Data_Extraction.ipynb```
+- The final ```Jupyter Notebook``` containing the Python script that created the visualizations used in this project titled ```Visualizations_Final.ipynb```
+
 ## Methodology Overview
 ### Datasets Used
 To answer the subquestions listed above, we first extracted data from an NBA API called ```Balldontlie.io```. We used this API to gather defensive player statistics per regular season, including **Steals** and **Blocks**. The API was not cooperative for a high number of requests; therefore the Python sleep function was implemented to delay every request. While this process took several hours to complete, it enabled 10,000+ requests to be made to gather data on 300+ players over 32 seasons. In addition to the API mentioned above, we used ```Kaggle``` to directly download NBA player datasets directly through their public API. Using this resource, we collected offensive regular season player stats, including **Points Per Game** and **Assists Per Game**, as well as other statistics pertaining to a player's contribution to their respective organization, including **Box Plus Minus** and **Win Share** stats. 
