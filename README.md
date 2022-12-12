@@ -5,6 +5,8 @@
 - [Project Overview](#project-overview)
 - [Repository Structure and Organization](#repository-structure-and-organization)
 - [Methodology Overview](#methodology-overview)
+    - [Datasets Used](#datasets-used)
+    - [Data Cleaning and Organization](#data-cleaning-and-organization)
 - [Data Cleaning and Organization](#data-cleaning-and-organization)
 - [Results and Analysis](#results-and-analysis)
 - [Conclusions](#conclusions)
@@ -75,6 +77,7 @@ In addition, we narrowed down over 20 player statistics for each group to the fo
 ![fig1](https://user-images.githubusercontent.com/113209883/206972642-2e7ef42d-9e13-4f04-9f6b-eb339aa53e63.jpg)
 
 ## Results and Analysis
+### Addressing the First Question: Do Top Draft Picks Bring Offensive Value?
 To address the first question related to the **offensive value** brought by top NBA draft picks, **average PPG** made by each group was plotted as a function of draft position using the ```pandas``` and ```Matplotlib``` Python libraries. In addition, using the ```NumPy``` and ```sci-py``` Python libraries, the r and p correlation values were computed, and a linear regression analysis was performed. The above steps produced the following plot:
 
 ![PPG](https://user-images.githubusercontent.com/113209883/206975720-346ad4af-648a-49f0-ad4d-e2b89f0bfbab.png)
@@ -87,6 +90,7 @@ Addressing the same question as above, **average APG** made by each group was al
 
 Referring to the scatter plot for average assists per game as a function of draft position above, we see a negative correlation with the assists made per game and draft position. Moreover, we see that in general, as we move down the picks of the draft, the lower their average APG these picks tend to produce. The correlation between draft position and APG was computed to be: -0.83. The p-value was computed to be: 0.003. These values suggest that the strength of association of these variables is high and statistically significant.
 
+### Addressing the Second Question: Do Top Draft Picks Bring Defensive Value?
 To address the second question related to the **defensive value** brought by top NBA draft picks, **average STPG** made by each group was plotted as a function of draft position using the ```pandas``` and ```Matplotlib``` Python libraries. In addition, using the ```NumPy``` and ```sci-py``` Python libraries, the r and p correlation values were computed, and a linear regression analysis was performed. The above steps produced the following plot:
 
 ![STPG](https://user-images.githubusercontent.com/113209883/206977329-3aa0e49a-81fe-4705-8ed8-0a532228fe8f.png)
@@ -99,6 +103,7 @@ Addressing the same question as above, **average BLKPG** made by each group was 
 
 Referring to the scatter plot for average blocks made per game as a function of draft position above, we see a negative correlation with the blocks made per game and draft position. Moreover, we see that in general, as we move down the picks of the draft, a lower the number of blocks are made amongst these picks. The correlation between draft position and BLKPG was computed to be: -0.77. The p-value was computed to be: 0.009. These values suggest that there is a strong correlation between draft position and the ability to produce blocks within a games. This makes sense in the context of the Modern NBA as Forwards tend to be more desired than Guards given their dominant physical attributes. 
 
+### Addressing the Third Question: Are Top Draft Picks Significant Contributors to Their Respective Teams' Winning Record?
 Lastly, to address the third question related to the **team impact** draft picks have **average WS** of each group was plotted as a function of draft position using the ```pandas``` and ```Matplotlib``` Python libraries. In addition, using the ```NumPy``` and ```sci-py``` Python libraries, the r and p correlation values were computed, and a linear regression analysis was performed. The above steps produced the following plot:
 
 ![WS](https://user-images.githubusercontent.com/113209883/206978396-975fe0e6-1cfb-41d7-975c-80ed09af81d0.png)
